@@ -39,6 +39,16 @@
     align-items: center;
     border-radius: 30px;
 }
+.container-card-grande-1{
+    background-color:#B5DDFF;
+    width: 60%;
+    margin-top: 40px;
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
 
 .titlo-card-grande{
     padding-bottom: 20px;
@@ -94,6 +104,15 @@
     margin-top: 50px;
     padding-bottom: 30px;
 }
+.container-main-card{
+    display: flex;
+    flex-direction: column; 
+    width: 100vh;
+    align-items: center;
+    background-color: #9792E4;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
 .sessione-1-main-2{
     width: 60%;
     margin-top: 40px;
@@ -108,7 +127,20 @@
     color: white;
     text-align: center;
 }
+.titolo-main-8{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
 .testo-main-2{
+    font-size: 13px;
+    padding-top: 30px;
+    width: 70%;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+.testo-main-5{
     font-size: 13px;
     padding-top: 30px;
     width: 70%;
@@ -180,6 +212,11 @@
     width: 160px;
     height: 158px;
 }
+.immagine-testimonial-main-8{
+    border-radius: 100px;
+    width: 160px;
+    height: 158px;
+}
 .testo-testimonial{
     color: white;
 }
@@ -246,6 +283,15 @@
     width: 60%;
     align-items: flex-start;
 }
+.container-main-8{
+    display: flex;
+    flex-direction: column; 
+    width: 100vh;
+    align-items: center;
+    background-color: #9792E4;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
 .testo-main-8{
     padding-top: 30px;
     color: #9792E4;
@@ -292,4 +338,140 @@
 .footer-link{
     color: #9792E4;
     text-decoration: underline;
+}
+.backgroun-violet{
+    background-color: #9792E4;
+}
+
+
+@media  (min-width: 768px){
+     
+    
+    .container-header {
+        width: 100%;
+    }
+    .container-main-2{
+        width: 100%;
+    }
+    .contenitore-flex-main-7{
+        width: 100%;
+    }
+    .container-main-card{
+        width: 100%;
+    }
+    .container-footer{
+        width: 100%;
+    }
+    .container-main-7{
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .container-main-8{
+        width: 100%;
+    }
+    .container-main-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .container-card-grande-1{
+        width: 61%;
+        margin: 20px;
+    }
+    .container-card-1{
+        width: 28%;
+        margin: 20px;
+    }
+    .sessione-1-main-2{
+        width: 100%;
+    }
+    .titolo-main-2{
+        width: 100%;
+        padding-top: 20px;
+        font-size: 50px;
+        padding: 50px 0 30px 40px;
+        text-align: left;
+    }
+    .testo-main-2{
+        width: 50%;
+    }
+    .sessione-2-main-2{
+        width: 95%;
+    }
+    .intro-testimonail{
+        width: 100%;
+    }
+    .container-card-main-4{
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .testo-main-5{
+        width: 70%;
+    }
+    .nome-testimonail{
+        padding-left: 201px;
+    }
+    .container-main-card{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card-main-6{
+        width: 43%;
+        margin: 20px;
+        align-items: center;
+    }
+    .testo-main-8{
+        position: relative;
+        bottom: 696px;
+        left: 595px;
+        width: 22%;
+    }
+    .immagine-testimonial-main-8{
+        position: relative;
+        bottom: 420px;
+        left: 30px;
+    }
+    .lorem-lungo{
+        width: 65%;
+    }
+    .bottone-card-8{
+        position: relative;
+        bottom: 476px;
+        left: 398px;
+    }
+    .titolo-main-8{
+        font-size: 33px;
+    }
+    .free-main-8 {
+        font-size: 70px;
+    }
+}
+@media  (min-width: 480px){
+
+    .container-main-1{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .container-main-2{
+        width: 70%;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+    .sessione-1-main-2{
+        width: 45%;
+    }
+    .sessione-2-main-2{
+        width: 40%;
+        margin-top: 250px;
+        margin-bottom: 0;
+    }
+
+
+
 }
